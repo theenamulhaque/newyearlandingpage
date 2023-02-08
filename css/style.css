@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 0 0px 50px 50px;
 }
 
 .headerBgImage .headerLeftBox {
@@ -105,6 +106,41 @@
     font-size: 13px;
 }
 
-
-
 /* FASHION TREND SECTION CODE END */
+
+/* RECORD SECTION CODE START */
+
+.record {
+    padding: 10% 8%;
+    background-color: #fda40a1b;
+}
+
+.record .recordTitle h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.record .recordTotalGrid {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.record .recordTotalGrid .recordGridBox {
+    padding: 60px 20px;
+    border:1px solid #fc9f0941;
+    margin: 0 5px;
+    border-radius: 40px;
+}
+
+.record .recordTotalGrid .recordGridBox img {
+    width: 30%;
+}
+
+.record .recordTotalGrid .recordGridBox p{
+    font-size: 13px;
+}
+
+
+/* RECORD SECTION CODE END */
