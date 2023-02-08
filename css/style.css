@@ -112,7 +112,8 @@
 
 .record {
     padding: 10% 8%;
-    background-color: #fda40a1b;
+    background: linear-gradient(90deg, rgba(255, 217, 0, 0.181) 0%, rgba(255, 234, 0, 0.076) 91%);
+    border-radius: 50PX 50px 50px 50px;
 }
 
 .record .recordTitle h1 {
@@ -142,5 +143,127 @@
     font-size: 13px;
 }
 
-
 /* RECORD SECTION CODE END */
+
+/* POSITIVE SECTION CODE START */
+.positive {
+    padding: 5% 8%;
+}
+
+.positive .positiveInnerBoxBgImage {
+    width: 100%;
+    background-image: url(../image/positive.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.positive .positiveInnerBoxBgImage .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(237,242,39,0.989233193277311) 0%, rgba(0,254,255,0.4206057422969187) 91%);
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.positive .positiveInnerBoxBgImage .positiveInnerBoxBgImageleftTextBox {
+    padding: 0 10%;
+    z-index: 1000;
+    position: relative;
+}
+
+.positive .positiveInnerBoxBgImage .positiveInnerBoxBgImageleftTextBox h1{
+    font-size: 60px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.positive .positiveInnerBoxBgImage .positiveInnerBoxBgImageleftTextBox a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 17px 60px;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+}
+
+/* POSITIVE SECTION CODE END */
+
+/* FOOTER CODE START */
+footer {
+      /* height: 60vh; */
+      background-color: black;
+      padding: 10% 8% 5% 8%;  
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footerSection .footerLeftBoxText {
+    width: 30%;
+    color: #fff;
+}
+
+.footerSection .footerLeftBoxText img {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.footerSection .footerLeftBoxText p{
+    font-size: 11px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footerSection .footerLeftBoxText .socialIcon img{
+    width: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.footerSection .footerLeftBoxText {
+    width: 50%;
+}
+
+.footerSection .footerRightBoxSubscribe {
+    color: #fff;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.footerSection .footerRightBoxSubscribe input[type="text"] {
+    width: 60%;
+    padding: 15px 17px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #FEA70B;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footerSection .footerRightBoxSubscribe .subscribeBtn a{
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 17px 60px;
+    background-color: #FEA70B;
+    border-radius: 50px;
+    color: #000;
+}
+
+/* FOOTER CODE END */
