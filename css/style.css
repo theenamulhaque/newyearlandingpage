@@ -53,3 +53,58 @@
 }
 
 /* HEADER CODE END HERE */
+
+/* FASHION TREND SECTION CODE START */
+
+.fashionTrend {
+    height: 100vh;
+    padding: 10% 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fashionTrendLeftBoxImage img{
+    text-align: center;
+    width: 70%;
+}
+
+.fashionTrend .fashionTrendRightBoxText {
+    width: 50%;
+}
+
+.fashionTrend .fashionTrendRightBoxText h1{
+    font-size: 70px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+
+.fashionTrend .fashionTrendRightBoxText p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.fashionTrend .fashionTrendRightBoxText .fashionTotalListBox {
+    margin-top: 30px;
+}
+
+.fashionTrend .fashionTrendRightBoxText .listBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fashionTrend .fashionTrendRightBoxText .listBox .listIcon img {
+    width: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.fashionTrend .fashionTrendRightBoxText .listBox .listText p{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+
+/* FASHION TREND SECTION CODE END */
