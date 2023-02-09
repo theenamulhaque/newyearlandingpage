@@ -205,10 +205,10 @@
 }
 
 .positive .positiveInnerBoxBgImage .positiveInnerBoxBgImageleftTextBox h1{
-    font-size: 60px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 28px;
     margin-bottom: 30px;
-    font-weight: 200;
+    font-weight: 800;
 }
 
 .positive .positiveInnerBoxBgImage .positiveInnerBoxBgImageleftTextBox a {
